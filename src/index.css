@@ -1,0 +1,86 @@
+
+/* .......Hero....... */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  height: 30vh;
+  width: 95vw;
+  margin: 12px auto;
+  background: linear-gradient(to right,rgb(10, 10, 10), rgb(235, 232, 232)),
+  url('https://images.freeimages.com/images/small-previews/a9d/mother-and-baby-birds-1633786.jpg') no-repeat center center / cover;
+  border-radius: 14px;
+  color: white;
+}
+
+.header {
+  margin-left: 25px;
+  padding-top:60px;
+}
+
+.header h1{
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+
+.header p{
+  line-height: 25px;
+}
+
+.case{
+  color: palevioletred;
+}
+
+.grid{
+  display: flex ;
+  padding-top: 30px;
+  margin-left: 19px;
+}
+
+.card{
+  height: 50px;
+  width: 90px;
+  background-color: rgb(73, 73, 89);
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
+.card p{
+  text-align: center;  
+  margin-top: 5px;
+  line-height: 20px;
+  letter-spacing: -0.2px;
+  font-size: 14px;
+}
+
+.bold{
+  font-weight: 900;
+  font-size: 17px;
+}
+
+         /* .......Card....... */
+
+.cont{
+  display: flex;
+
+}
+
+
